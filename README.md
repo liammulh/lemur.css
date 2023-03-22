@@ -1,9 +1,14 @@
 # lemur.css: A Classless Stylesheet
-<img src="./lemur.jpg" style="float: right" width="400" alt="A Nice Lemur"/>
+<img src="./lemur.jpg" align="right" width="200" alt="A Nice Lemur"/>
 
 lemur.css is a minimal classless stylesheet that makes your plain
 HTML look slightly less plain. It is used in
 [0ty](https://github.com/liammulh/0ty), a zero-config static site generator.
+
+lemur.css is intended for my personal use with 0ty. If other people
+want to use it, or want to contribute, great! It is minimal compared to
+some popular classless CSS stylesheets. I will add to it if the need
+arises.
 
 ## Usage
 
