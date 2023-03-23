@@ -2,7 +2,7 @@
   "name": "lemur.css",
   "description": "A Classless Stylesheet",
   "keywords": ["CSS", "classless", "stylesheet"],
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "Liam Mulhall <liammulh@gmail.com>",
   "homepage": "https://github.com/liammulh/lemur.css",
   "repository": {
