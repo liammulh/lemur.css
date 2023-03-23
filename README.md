@@ -30,6 +30,8 @@ In the sample, there is typeset math, which requires
 
 ## Links
 
+- [Live Demo](https://liammulh.github.io/lemur.css/)
+- [NPM](https://www.npmjs.com/package/lemur.css)
 - [Contributing](./CONTRIBUTING.md)
 - [License](./LICENSE.md)
 
