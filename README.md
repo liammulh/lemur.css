@@ -37,7 +37,7 @@ In the sample, there is typeset math, which requires
 
 Why lemur.css?
 
-1. The CSS is light and nimble like a lemur.
+1. The CSS is nimble like a lemur.
 2. As a little kid, one of my favorite TV shows was
    [Zoboomafoo](https://en.wikipedia.org/wiki/Zoboomafoo).
 3. My name (Liam) kinda sorta sounds like lemur.
