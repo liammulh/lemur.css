@@ -1,7 +1,7 @@
 :root {
   --primary-dark: rgb(65, 65, 65);
-  --primary-light: rgb(255, 255, 245);
-  --secondary-light: rgb(255, 255, 225);
+  --primary-light: rgb(255, 255, 250);
+  --secondary-light: rgb(255, 255, 245);
   --max-width: 70ch;
 }
 
