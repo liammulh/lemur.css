@@ -20,15 +20,21 @@ nav {
   text-align: center;
 }
 
-/* Only include padding if the code tag is in a pre tag. */
+:not(pre) > code { /* Inline code. */
+  background-color: var(--secondary-light);
+  border: 0.1em solid var(--primary-dark);
+  padding: 0.1em;
+  margin: 0.1em;
+}
+
 pre > code {
+  /* Code should have more padding in a code block. */
   padding: 0.5em;
 }
 
-pre {
+pre { /* Code block. */
   background-color: var(--secondary-light);
   border: 0.1em solid var(--primary-dark);
-
   /* Horizontal scroll for blocks of code. */
   display: flex;
   flex-wrap: nowrap;
