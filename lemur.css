@@ -1,13 +1,13 @@
 :root {
-  --primary-dark: rgb(65, 65, 65);
-  --primary-light: rgb(255, 255, 250);
-  --secondary-light: rgb(255, 255, 245);
+  --text-color: rgb(65, 65, 65);
+  --background-color: rgb(255, 255, 250);
+  --accent-color: rgb(255, 255, 245);
   --max-width: 70ch;
 }
 
 html {
-  color: var(--primary-dark);
-  background-color: var(--primary-light);
+  color: var(--text-color);
+  background-color: var(--background-color);
   max-width: var(--max-width);
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   padding: 3em 1em;
@@ -21,8 +21,8 @@ nav {
 }
 
 :not(pre) > code { /* Inline code. */
-  background-color: var(--secondary-light);
-  border: 0.1em solid var(--primary-dark);
+  background-color: var(--accent-color);
+  border: 0.1em solid var(--text-color);
   padding: 0.1em;
   margin: 0.1em;
 }
@@ -33,8 +33,8 @@ pre > code {
 }
 
 pre { /* Code block. */
-  background-color: var(--secondary-light);
-  border: 0.1em solid var(--primary-dark);
+  background-color: var(--accent-color);
+  border: 0.1em solid var(--text-color);
   /* Horizontal scroll for blocks of code. */
   display: flex;
   flex-wrap: nowrap;
